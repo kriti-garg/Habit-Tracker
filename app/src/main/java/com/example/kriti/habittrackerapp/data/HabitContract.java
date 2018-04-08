@@ -20,7 +20,7 @@ import android.provider.BaseColumns;
 /**
  * API Contract for the Habit Tracker app.
  */
-public final class HabitContract {
+final class HabitContract {
     // To prevent someone from accidentally instantiating the contract class,
     // give it an empty constructor.
     private HabitContract() {}

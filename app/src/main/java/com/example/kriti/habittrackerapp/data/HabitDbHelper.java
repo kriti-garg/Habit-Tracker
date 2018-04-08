@@ -29,8 +29,6 @@ import com.example.kriti.habittrackerapp.data.HabitContract.HabitEntry;
  */
 public class HabitDbHelper extends SQLiteOpenHelper {
 
-    public static final String LOG_TAG = HabitDbHelper.class.getSimpleName();
-
     /** Name of the database file */
     private static final String DATABASE_NAME = "habit_tracker.db";
 
